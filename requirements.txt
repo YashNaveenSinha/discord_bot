@@ -1,9 +1,10 @@
-discord.py
+--extra-index-url https://download.pytorch.org/whl/cpu
+discord.py==2.3.2
 easyocr
-torch
-torchvision
+torch==2.1.0+cpu
+torchvision==0.16.0+cpu
 opencv-python-headless
 pillow
 numpy
 cryptography
---extra-index-url https://download.pytorch.org/whl/cpu
+pandas
