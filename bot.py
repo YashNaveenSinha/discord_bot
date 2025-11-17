@@ -1,3 +1,7 @@
+import os
+os.environ["DISCORD_NO_AUDIO"] = "1"
+
+
 # --------------------------
 # KEEP-ALIVE FLASK WEB SERVER
 # --------------------------
