@@ -1,7 +1,0 @@
-discord.py
-easyocr
-torch
-torchvision
-opencv-python-headless
-pillow
-numpy
