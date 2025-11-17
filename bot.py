@@ -1,3 +1,19 @@
+# --------------------------
+# KEEP-ALIVE FLASK WEB SERVER
+# --------------------------
+from flask import Flask
+import threading
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Bot is running!"
+
+def run_web():
+    app.run(host="0.0.0.0", port=8080)
+
+
 import discord
 from discord.ext import commands
 import easyocr
@@ -188,3 +204,11 @@ async def reset(ctx):
 async def on_ready():
     print(f"Logged in as {bot.user}")
     print("Bot is running with full protection + logging.")
+	
+# Start keepalive server
+threading.Thread(target=run_web).start()
+	
+import os
+
+bot.run(os.environ["DISCORD_TOKEN"])
+
