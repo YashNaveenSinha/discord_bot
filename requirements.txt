@@ -2,7 +2,7 @@
 discord.py==2.3.2
 easyocr
 torch==2.5.1+cpu
-torchvision==0.16.0+cpu
+torchvision==0.22.0+cpu
 opencv-python-headless
 pillow
 numpy
