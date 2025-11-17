@@ -18,8 +18,8 @@ reader = easyocr.Reader(['en'])
 
 # 1️⃣ Allowed user IDs
 ALLOWED_USERS = [
-    123456789012345678,   # your Discord ID
-    987654321012345678,  
+    1130187090261463130,   # your Discord ID
+    817852292295688202,  
 ]
 
 # 2️⃣ Only allow users with the "OCR Access" role

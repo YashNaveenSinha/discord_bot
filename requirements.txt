@@ -5,3 +5,5 @@ torchvision
 opencv-python-headless
 pillow
 numpy
+cryptography
+--extra-index-url https://download.pytorch.org/whl/cpu
