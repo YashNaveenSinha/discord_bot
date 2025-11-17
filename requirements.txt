@@ -1,7 +1,7 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 discord.py==2.3.2
+paddlepaddle==3.2.1
 paddleocr==2.7.0.3
-paddlepaddle==2.6.1
 opencv-python-headless
 pillow
 numpy
