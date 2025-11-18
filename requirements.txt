@@ -7,7 +7,6 @@ paddlepaddle==3.2.1
 paddleocr==2.7.0.3
 
 # Fix missing audioop on Python 3.13
-audioop-lts
 setuptools
 
 # Utils
